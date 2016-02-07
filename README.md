@@ -41,8 +41,8 @@ ENVIRONMENT:
 
 Q3MAP2=/path/to/q3map2
 	override q3map2 binary path
-DAEMONMAP/path/to/daemonmap
-	override daemonmap binary path
+DAEMONMAP=/path/to/daemonmap
+	override daemonmap binary path, useful if you use a q3map2 build with navmesh support, use it instead
 CRUNCH=/path/to/crunch
 	override crunch binary path
 CONVERT=/path/to/convert

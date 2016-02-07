@@ -151,8 +151,8 @@ _help () {
 
 	Q3MAP2=/path/to/q3map2
 	${TAB}override q3map2 binary path
-	DAEMONMAP/path/to/daemonmap
-	${TAB}override daemonmap binary path
+	DAEMONMAP=/path/to/daemonmap
+	${TAB}override daemonmap binary path, useful if you use a q3map2 build with navmesh support, use it instead
 	CRUNCH=/path/to/crunch
 	${TAB}override crunch binary path
 	CONVERT=/path/to/convert
